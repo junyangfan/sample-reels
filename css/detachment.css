@@ -1,0 +1,288 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+.logo {
+	padding:0;
+}
+#myCarousel {
+	margin: 50px 0 0 0;
+}
+#navbar-collapse ul {
+	margin-top:0;
+}
+.carousel-inner img {
+	margin: 0 auto;
+}
+/*.carousel-control {
+	font-size: 100px;
+}*/
+.tab-h2 {
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #0059b2;
+}
+.tab-p {
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #999;
+	margin: 20px 0 40px 0;
+}
+.tab1 {
+	margin: 30px 0;
+	color: #666;
+}
+.tab1 .text-muted {
+	color: #999;
+	text-decoration: line-through;
+}
+.tab1 .media-heading {
+	margin: 5px 0 20px 0;
+}
+.tab1 .col {
+	padding: 20px;
+}
+
+.tab2{
+	background: #EEEEEE;
+	padding: 40px 0;
+	text-align: center;
+}
+.tab3{
+	padding: 40px 0;
+	text-align: center;
+}
+.text h3{
+	font-size: 20px;
+}
+.text p{
+	font-size: 12px;
+}
+.icon_prev{
+	position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -60px;
+    font-size: 80px;
+}.icon_next{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -60px;
+    font-size: 80px;
+}
+.jumbotron{
+	background-image: url(../img2/bg.jpg);
+	margin:50px 0 0 0;
+	color: #ccc;
+}
+.jumbotron h2{
+	font-size: 26px;
+	padding: 0 0 0 20px;
+	
+}
+.jumbotron h4{
+	font-size: 15px;
+	padding: 0 0 0 20px;
+}
+
+#line{
+	background: #eee;
+	padding: 40px 0;
+}
+.info-content{
+	margin-bottom: 8px;
+	background: white;
+	box-shadow: 2px 2px 3px #CCCCCC;
+}
+.info-content img{
+	margin:10px 0;
+}
+.info-content h4{
+	color:royalblue;
+	padding-top: 2px;
+	font-size: 14px;
+}
+.info-content p{
+	line-height: 1.6;
+}
+
+.info-right{
+	background: #ffffff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+
+.info-right h2{
+	color: #333333;
+	font-size: 20px;
+	padding: 5px;
+}
+.info-right h4{
+	color:royalblue;
+	font-size: 14px;
+	margin-top:15px;
+	line-height: 1.6;
+}
+#case{
+	padding: 40px 0;
+	background: #EEEEEE;
+	text-align: center;
+}
+#case h4{
+	color: royalblue;
+}
+#case p{
+	color: #666;
+	line-height: 1.6;
+}
+#case img{
+	margin-top: 20px;
+}
+#more{
+	padding: 40px 15px;
+	background: #EEEEEE;
+}
+#more a{
+	color: royalblue;
+}
+#more .about{
+	background: white;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.about h3{
+	color: royalblue;
+	font-size: 18px;
+	border-bottom: 3px dashed #C0C0C0;
+	padding: 20px 0;
+	margin: 0 0 10px 0;
+}
+.about p{
+	line-height: 2;
+	font-size: 13px;
+}
+#footer{
+	background: #666;
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+	padding: 20px;
+	color: #EEEEEE;
+}
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.tab-h2 {
+		font-size: 26px;
+	}
+	.tab-p {
+		font-size: 16px;
+	}
+	.text h3{
+	font-size: 22px;
+	}
+	.text p{
+	font-size: 13px;
+	}
+	.tab3-text{
+		float: left;
+	}
+	.tab3-img{
+		float: right;
+	}
+	.jumbotron h2{
+	font-size: 30px;
+	}
+	.jumbotron h4{
+	font-size: 16px;
+	}
+	.info-content{
+	margin-bottom: 12px;
+    }
+    .info-content h4{
+	font-size: 16px;
+    }
+    .about h3{
+	font-size: 19px;
+	}
+	.about p{
+	font-size: 14px;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.tab-h2 {
+		font-size: 28px;
+	}
+	.tab-p {
+		font-size: 17px;
+	}
+	.text h3{
+	font-size: 23px;
+	}
+	.text p{
+	font-size: 14px;
+	}
+	.jumbotron h2{
+	font-size: 33px;
+	}
+	.jumbotron h4{
+	font-size: 17px;
+	}
+	.info-content{
+	margin-bottom: 16px;
+    }
+    .info-content h4{
+	font-size: 17px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 16px;
+    }
+    .about h3{
+	font-size: 20px;
+	}
+	.about p{
+	font-size: 15px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.tab-h2 {
+		font-size: 30px;
+	}
+	.tab-p {
+		font-size: 18px;
+	}
+	.text h3{
+		font-size: 26px;
+	}
+	.text p{
+		font-size: 15px;
+	}
+	.jumbotron h2{
+	font-size: 36px;
+	}
+	.jumbotron h4{
+		font-size: 18px;	
+	}
+	.info-content{
+	margin-bottom: 20px;
+    }
+    .info-content h4{
+	font-size: 18px;
+    }
+    .about h3{
+	font-size: 22px;
+	}
+	.about p{
+	font-size: 16px;
+	}
+}

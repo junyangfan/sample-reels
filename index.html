@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>Curriculum Vitae</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap3.3.0.css"/>
+		<link rel="stylesheet" type="text/css" href="css/zhuye.css"/>
+		<link rel="icon" href="img1/icon-pen.ico" />
+	</head>
+	<body>
+		  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+		    <div class="container">
+		      <div class="navbar-header">
+		        <button type="button" class="navbar-toggle collapsed slideup" data-toggle="collapse" data-target="#items" aria-expanded="false">
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand brandname" href="#title">PaLidan</a>
+		      </div>
+		
+		      <div class="collapse navbar-collapse" id="items">
+		        <ul class="nav navbar-nav navbar-right">
+		          <li class="active"><a href="#title"><span class="glyphicon glyphicon-home"></span> Home<span class="sr-only">(current)</span></a></li>
+		          <li><a href="#projects"></span><span class="glyphicon glyphicon-tasks"></span> Projects</a></li>
+		          <li><a href="#skills"></span><span class="glyphicon glyphicon-fire"></span> Skills</a></li>
+		          <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> About <span class="caret"></span></a>
+		            <ul class="dropdown-menu">
+		              <li><a href="#education"></span> Education</a></li>
+		              <li><a href="#assessment"></span> Self-assessment</a></li>
+		              <li><a href="#more" class="my_more"></span> More</a></li>
+		            </ul>
+		          </li>
+		        </ul>
+		      </div>
+		    </div>
+		  </nav>
+
+  <!-- Add a jumbotron to display the main message. -->
+		  <div class="jumbotron title" id="title">
+		    <div class="container">
+		      <h1 id="element"></h1>
+		      <p>
+		        <em class="introduce"></em>
+		      </p>
+		      <p>
+		        <img id="me" style="width: 100px;height: 100px;" class="img-circle" src="img1/palidan.jpg" alt="my photo" />
+		      </p>
+		      <a id="contact" href="#foot" class="btn btn-lg btn-success">
+		        <span class="icon-contack"></span>Abort Me
+		      </a>
+		    </div>
+		  </div>
+
+		  <div class="project" id="projects">
+		    <h2><span class="icon-book icon-title"></span>个人作品展示</h2>
+		    <div class="container">
+		      <!-- Nav tabs -->
+		      <ul class="nav nav-tabs" role="tablist" id="tab-list">
+		        <li role="presentation" class="active"><a href="#filmcontent" aria-controls="home" role="tab" data-toggle="tab">蜡笔影讯网</a></li>
+		        <li role="presentation"><a href="#filmpro" aria-controls="profile" role="tab" data-toggle="tab">电影专题网</a></li>
+		        <li role="presentation"><a href="#travel" aria-controls="messages" role="tab" data-toggle="tab">蜡笔旅游网</a></li>
+		        <li role="presentation"><a href="#browers" aria-controls="settings" role="tab" data-toggle="tab">浏览器博物馆</a></li>
+		        <li role="presentation"><a href="#css3" aria-controls="settings" role="tab" data-toggle="tab">css3滑动效果</a></li>
+		        <li role="presentation"><a href="#ps" aria-controls="ps" role="tab" data-toggle="tab">PS小作品</a></li>
+		      </ul>
+		
+		      <!-- Tab panes -->
+		      <div class="tab-content pages">
+		        <div role="tabpanel" class="tab-pane fade in active page" id="filmcontent">
+		          <div class="row">
+		            <div class="col-md-5 col-sm-12 col-xs-12 works-pic">
+		              <div class="thumbnail">
+		                <a href="labiflim.html" target="_blank"><img class="img-responsive" src="img1/film.jpg" alt="" /></a>
+		                  <p class="text">[最新影视资讯]</p>
+		              </div>
+		            </div>
+		            <div class="regin_line"></div>
+		            <div class="col-md-5 col-sm-12 col-xs-12 film-info">
+		            	<h4>作品介绍</h4>
+			            <p>
+			                Work is introduced
+			            </p>
+		            	<div class="worksbox">
+				            <ul>
+				                <li class="list"><b>应用软件:</b>Chrome, FireFox, HBuilder</li>
+				                <li class="list"><b>编程语言:</b> HTML, CSS, JavaScript, jQuery</li>
+				                <li class="list"><b>功能:</b>
+				                	<ul class="function">
+					                    <li class="list2">使用jQuery实现焦点图的切换,快速浏览最新信息。</li>
+					                    <li class="list2">导航条中添加每日热搜，登陆与注册界面。</li>
+					                    <li class="list2">今日热点版块中具有鼠标移入放大的效果。</li>
+					                    <li class="list2">火热上映版块中将具选项卡和轮播效果结合。</li>
+					                    <li class="list2">正版商城清单中，增加了延时提示商品框。</li>
+				                  </ul>
+				                </li>  
+				            </ul>
+				            <p class="link"><b>网页链接 : </b><a href="labiflim.html" target="_blank">请戳我<i class="glyphicon glyphicon-hand-left"></i></a></p>
+		            	</div>
+		              </div>  
+		         </div>
+		        </div>
+		        
+		
+		        <div role="tabpanel" class="tab-pane fade in page" id="filmpro">
+		          <div class="row">
+		            <div class="col-md-5 col-sm-12 col-xs-12 works-pic">
+		              <div class="thumbnail">
+		                <a href="detindex.html" target="_blank"><img class="img-responsive" src="img1/filmpro.jpg" alt="" /></a>
+ 						<p class="text">[超脱电影专题]</p>
+		              </div>
+		            </div>
+		            <div class="regin_line"></div>
+		            <div class="col-md-5 col-sm-12 col-xs-12 film-info">
+		              <h4>作品介绍</h4>
+		              <p>
+		                Work is introduced
+		              </p>
+		              <div class="worksbox">
+		              	<ul>
+			              	<li class="list"><b>应用软件:</b>Chrome, FireFox, HBuilder,Photoshop</li>
+			                <li class="list"><b>编程语言:</b> HTML, CSS, JavaScript, jQuery,Bootsharp</li>
+			                <li class="list"><b>功能:</b>
+			                  <ul class="function">
+			                    <li class="list2">使用Bootsharp实现焦点图的轮播。</li>
+			                    <li class="list2">使用栅栏式布局，更快构造网页。</li>
+			                    <li class="list2">使用Bootsharp自带的小图标，更简洁。</li>
+			                    <li class="list2">图片部分采用img-responsive，实现响应式。</li>
+			                    <li class="list2">整体网页采用响应式设计，兼容手机端与平板。</li>
+			                  </ul>
+			                </li>
+			            </ul>
+			            <p class="link"><b>网页链接 : </b><a href="detindex.html" target="_blank">请戳我<i class="glyphicon glyphicon-hand-left"></i></a></p>
+		              </div> 
+		            </div>  
+		         </div>
+		        </div>
+		        
+		        
+		        
+		       <div role="tabpanel" class="tab-pane fade in page" id="travel">
+		          <div class="row">
+		            <div class="col-md-5 col-sm-12 col-xs-12 works-pic">
+		              <div class="thumbnail">
+		                <a href="travelindex.html" target="_blank"><img class="img-responsive" src="img1/travel.jpg" alt="" /></a>
+		                   <p class="text">[蜡笔旅游网]</p>
+		              </div>
+		            </div>
+		            <div class="regin_line"></div>
+		            <div class="col-md-5 col-sm-12 col-xs-12 film-info">
+		              <h4>作品介绍</h4>
+		              <p>
+		                Work is introduced
+		              </p>
+		              <div class="worksbox">
+		              	<ul>
+			                <li class="list"><b>应用软件:</b>Chrome, FireFox, HBuilder，Photoshop</li>
+			                <li class="list"><b>编程语言:</b>HTML5, CSS3</li>
+			                <li class="list"><b>功能:</b>
+			                  <ul class="function">
+			                    <li class="list2">此网页是静态页面，没有添加过多的交互。</li>
+			                    <li class="list2">采用大量图片，更加直观突出产品。</li>
+			                    <li class="list2">整体采用简约的风格，没有过多修饰。</li>
+			                    <li class="list2">大量使用css3中的media查询和box-sizing。</li>
+			                    <li class="list2">整体网页采用响应式设计，兼容手机端与平板。</li>
+			                  </ul>
+			                </li>
+		                </ul>
+		              <p class="link"><b>网页链接 : </b><a href="travelindex.html" target="_blank">请戳我<i class="glyphicon glyphicon-hand-left"></i></a></p>
+		              </div>
+		              </div>  
+		         </div>
+		        </div>
+		        
+		        
+		        <div role="tabpanel" class="tab-pane fade in page" id="browers">
+		          <div class="row">
+		            <div class="col-md-5 col-sm-12 col-xs-12 works-pic">
+		              <div class="thumbnail">
+		                <a href="borindex.html" target="_blank"><img class="img-responsive" src="img1/browers.jpg" alt="" /></a>
+		                  <p class="text">[现代浏览器介绍]</p>
+		              </div>
+		            </div>
+		            <div class="regin_line"></div>
+		            <div class="col-md-5 col-sm-12 col-xs-12 film-info">
+		              <h4>作品介绍</h4>
+		              <p>
+		                Work is introduced
+		              </p>
+		              <div class="worksbox">
+		              	<ul>
+			                <li class="list"><b>应用软件:</b>Chrome, FireFox, HBuilder，Photoshop</li>
+			                <li class="list"><b>编程语言:</b>HTML, CSS3,Bootsharp</li>
+			                <li class="list"><b>功能:</b>
+			                  <ul class="function">
+			                    <li class="list2">介绍现代浏览器的历史和使用方法。</li>
+			                    <li class="list2">首页轮播采用Bootsharp的carousel。</li>
+			                    <li class="list2">导航条中运用下拉框和搜索组件。</li>
+			                    <li class="list2">整体网页采用响应式设计，兼容手机端与平板。</li>
+			                    <li class="list2">网页内容不多，只有一个页面，当做学习。</li>
+			                  </ul>
+			                </li>
+			              </ul>
+		              <p class="link"><b>网页链接 : </b><a href="borindex.html">请戳我<i class="glyphicon glyphicon-hand-left"></i></a></p>
+		              </div>
+		               </div>  
+		         </div>
+		        </div>
+		        
+		        
+		        <div role="tabpanel" class="tab-pane fade in page" id="css3">
+		          <div class="row">
+		            <div class="col-md-5 col-sm-12 col-xs-12 works-pic">
+		              <div class="thumbnail">
+		                <a href="css3index.html" target="_blank"><img class="img-responsive" src="img1/css3.png" alt="" /></a>
+ 						<p class="text">[css3实现滑动效果]</p>
+		              </div>
+		            </div>
+		            <div class="regin_line"></div>
+		            <div class="col-md-5 col-sm-12 col-xs-12 film-info">
+		              <h4>作品介绍</h4>
+		              <p>
+		                Work is introduced
+		              </p>
+		              <div class="worksbox">
+		              	<ul>
+			              	<li class="list"><b>应用软件:</b>Chrome, FireFox, HBuilder。</li>
+			                <li class="list"><b>编程语言:</b> HTML, CSS3。</li>
+			                <li class="list"><b>功能:</b>
+			                  <ul class="function">
+			                    <li class="list2">整个效果是用css3做出来的。</li>
+			                    <li class="list2">没有使用任何JS脚本。</li>
+			                    <li class="list2">点击检测使用了radio标签来完成的。</li>
+			                    <li class="list2">图标采用了特殊的字体实现的。</li>
+			                    <li class="list2">整体网页采用响应式设计，兼容手机端与平板。</li>
+			                  </ul>
+			                </li>
+			            </ul>
+			            <p class="link"><b>网页链接 : </b><a href="css3index.html" target="_blank">请戳我<i class="glyphicon glyphicon-hand-left"></i></a></p>
+		              </div> 
+		            </div>  
+		         </div>
+		        </div>
+		        
+		         <div role="tabpanel" class="tab-pane fade in page" id="ps" style="padding-bottom:20px ;">
+		          	<div id="carousel" class="carousel slide">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+						<li data-target="#carousel" data-slide-to="2"></li>
+						<li data-target="#carousel" data-slide-to="3"></li>
+						<li data-target="#carousel" data-slide-to="4"></li>
+						<li data-target="#carousel" data-slide-to="5"></li>
+						<li data-target="#carousel" data-slide-to="6"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img1/ps1.png" class="img-responsive center-block"/>
+						</div>
+						<div class="item">
+							<img src="img1/ps2.png" class="img-responsive center-block"/>
+						</div>
+						<div class="item">
+							<img src="img1/ps3.png" class="img-responsive center-block"/>
+						</div>
+						<div class="item">
+							<img src="img1/chuangyue.png" class="img-responsive center-block"/>
+						</div>
+						<div class="item">
+							<img src="img1/laoying.png" class="img-responsive center-block"/>
+						</div>
+						
+						<div class="item">
+							<img src="img1/tixudao.jpg" class="img-responsive center-block"/>
+						</div>
+						<div class="item">
+							<img src="img1/yama.jpg" class="img-responsive center-block"/>
+						</div>
+					</div>
+					<a href="#carousel" data-slide="prev" class="carousel-control left">
+						<span class="icon_next">&lsaquo;</span>
+					</a>
+					<a href="#carousel" data-slide="next" class="carousel-control right">
+						<span class="icon_prev">&rsaquo;</span>
+					</a>
+				</div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+ 
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="skills" id="skills">
+    <div class="skill-text">
+      <h2><span class="icon-tool icon-title"></span>个人技能</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                HTML
+              </div>
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                HTML5
+              </div>
+              <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                To be explored
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                CSS
+              </div>
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                CSS3
+              </div>
+              <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                To be explored
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                JavaScript
+              </div>
+              <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                To be explored
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                Framework ( jQuery & Bootstrap )
+              </div>
+              <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                To be explored
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                Software ( Photoshop & Flash & Dreamweaver )
+              </div>
+              <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                To be explored
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <p>
+              <b>HTML & HTML5 :</b> 了解和使用HTML和HTML5的新标签，新特信。
+            </p>
+            <p>
+              <b>CSS & CSS3 :</b> 熟练操作css与html结合，快速构造出静态网页，配合css3创造交互行为.
+            </p>
+            <p>
+              <b>JavaScript :</b> 了解DOM，闭包，跨域，基本语法特性，运动框架等。
+            </p>
+            <p>
+              <b>Framework :</b> 熟悉Jquery的选择器,事件,函数等,熟悉Bootsharp,构造响应式布局。
+            </p>
+            <p>
+              <b>Software :</b>熟悉Photoshop,flash,Dreamweaver,做出网页上的图片，gif效果。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about" id="about">
+    <h2><span class="icon-document icon-title"></span>关于我</h2>
+    <div class="container">
+      <div class="row about-content">
+        <div class="col-md-6 col-sm-6 col-xs-6" id="education">
+          <h3><span class="icon-data icon-title"></span> Education</h3>
+          <p>
+            <b>Degree</b>: Undergraduate
+            <br />
+            <b>Major</b>: Computer application technology
+            <br>
+            <b>Suzhou Vocational University</b>, graduated in 2016
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6" id="self-assessment">
+          <h3><span class="icon-heaart icon-title"></span> Self-assessment</h3>
+          <p>
+            <strong>Honest</strong> with people and <strong>patient</strong> with work.
+            <br> Strong sense of <strong>responsibility</strong> and good <strong>self-learning</strong> ability
+            <br> Enjoy <strong>exploring</strong> the unknown area and<strong> never set limitation</strong> of my life.
+          </p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-default btn-block my_feeling" data-toggle="collapse" data-target="#more"><b>Click to Know More</b></button>
+      <div class="collapse" id="more" style="text-align: center;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 col">
+              <h4>My feelings</h4>
+              <ol style="list-style: none;padding: 0;">
+                <li>如果能帮助到你或者能激发你一点灵感 ,那么我也会感到很高兴!</li>
+                <li>Whatever is worth doing is worth doing well.</li>
+                <li><b>Website Link: </b><a target="_blank" href="https://palidan.xyz">https://palidan.xyz</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="foot" id="foot">
+   
+    <p>
+      Copyright &copy; 2023 All rights reserved @ <a target="_blank" href="https://palidan.xyz">https://palidan.xyz</a>
+    </p>
+    <p>
+      <span class="icon-phone"></span><b>Phone :</b> 17699642765 &nbsp;&nbsp;&nbsp;&nbsp;<span class="email"><span class="icon-email"></span><b>Emali : </b><a  href="mailto:756671381@qq.com">756671381@qq.com</a></span>
+    </p>
+  </footer>
+
+ <div id="side">
+ 	<div class="side_open"></div>
+ 	
+ </div>
+ <div class="side_content">
+ 	<div class="content-head">
+ 		<img src="img1/myhead.JPG" class="myhead"/>
+ 		<span class="myheadname">帕丽丹</span>
+ 	</div>
+ 		<img src="img1/myweixin.png" class="mywei"/>
+ 		 <p class="pull-right">
+	      <a href="#top" class="go_top"><i class="glyphicon glyphicon-upload icon-top"></i>Top</a>
+	    </p>
+ </div>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/typed.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap3.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/zhuye.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

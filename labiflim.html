@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap3.3.4.css"/>
+		<link rel="stylesheet" type="text/css" href="css/film.css"/>
+	</head>
+	<body>
+		
+		
+		    <nav id="nav_header">
+				<div class="nav">
+					<div class="logo">
+						<img src="img/logo.png"/>
+					</div>
+					<div class="nav-list">
+						<ul>
+							<li><a href="javascript:void(0)">首页</a><i class="nav_active"></i></li>
+							<li><a href="javascript:void(0)">资讯</a></li>
+							<li><a href="javascript:void(0)">发现</a></li>
+							<li><a href="javascript:void(0)">正版商城<em></em></a></li>
+					   </ul>
+		           </div>
+		           <div class="nav-list1">
+						<ul>
+							<li><a href="javascript:void(0)">登陆</a><i></i></li>
+							<em></em>
+							<li><a href="javascript:void(0)">注册</a></li>
+					   </ul>
+		           </div>
+				    <div class="login">
+						<dl>
+							<dt>
+								<strong>为爱电影的人</strong>
+								 For people who love movies
+							</dt>
+							<dd class="userlogin">
+								<ul>
+									<li>
+										<label for="user" class="userpic"></label>
+										<input type="text" name="user" id="user"/>
+									</li>
+									<li>
+										<label for="pass" class="passpic"></label>
+										<input type="password" name="pass" id="pass"/>
+									</li>
+								</ul>
+								<p class="usertip">
+									<a href="">忘记密码</a>
+									<i class="icon-check"></i>下次自动登录
+								</p>
+								<div class="loginbtn">
+									<a href="" class="btnblue" >登陆</a>
+									<a href="" class="btngrey">成为会员</a>
+								</div>
+							</dd>
+						</dl>	
+						<dl class="otherlogin">
+							<dt>使用第三方登陆</dt>
+							<dd>
+								<a href="" class="icon-sina"></a>
+								<a href="" class="icon-qq"></a>
+							</dd>
+						</dl>
+					</div>
+					
+	               <div class="input-group-btn" id="search_right">
+		            	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+		            		全部
+		            		<span class="caret"></span>
+		            	</button>
+		            	<ul class="dropdown-menu">
+		            		<li><a href="javascript:void(0)">全部</a></li>
+		            		<li><a href="javascript:void(0)">电影</a></li>
+		            		<li><a href="javascript:void(0)">影人</a></li>
+		            		<li><a href="javascript:void(0)">影院</a></li>
+		            		<li><a href="javascript:void(0)">商品</a></li>
+		            		<li><a href="javascript:void(0)">新闻</a></li>
+		            	</ul>	
+				    </div>
+				    <div id="search">
+				    	<input type="text" name="" id="search_mess" value="" class="form-control"></input>
+				    	<a href="javascript:void(0)" id="search_left"><i class="search_left1"></i></a>
+				        <div class="hot_seach">
+					    	<ul>
+					    		<span>今日热搜</span>
+					    		<li class="item_hot">1 但丁密码</li>
+					    		<li class="item_hot">2 魔法精灵</li>
+					    		<li class="item_hot">3 驴得水</li>
+					    		<li>4 机械师2：复活</li>
+					    		<li>5 侠探杰克：永不回头</li>
+					    		<li>6 惊天破</li>
+					    		<li>7 湄公河行动</li>
+					    		<li>8 龙珠Z：复活的弗利萨</li>
+					    	</ul>
+			            </div>
+				    </div>
+				   <div class="regin">
+						<div class="close"><img src="img/close.png"/></div>
+						
+						<div class="regin_line"></div>
+						<div class="regin_left">
+							<h2>新会员注册</h2>
+							<dl>
+								<dd class="regin_number">
+									<input type="text" placeholder="请输入您的手机号" />
+								</dd>
+								<dd class="regin_sms">
+									<input type="text" placeholder="短信验证码" />
+									<a href="javascripi:void(0)">获取验证码</a>
+								</dd>
+								<dd class="regin_pass">
+									<input type="password" placeholder="密码 (6-20位字母与数字、符号组合)" />
+									<div class="passlevel">
+										<p>密码强度</p>
+										<p>
+											<i class="ps1">&nbsp;</i>
+											<i class="ps2">&nbsp;</i>
+											<i class="ps3">&nbsp;</i>
+										</p>
+									</div>
+								</dd>
+								<dd class="regin_passtrue">
+									<input type="password" placeholder="确认密码" />
+								</dd>
+								<dd class="regin_sex">
+									性别：
+									<span>
+										<i class="sex_check"></i>男<em class="male"></em>
+									</span>
+									<span>
+										<i class="sex_check"></i>女<em class="female"></em>
+									</span>
+								</dd>
+								<dd class="regin_pro">
+									<span class="regin_proon on"></span>
+									<a href="">已同意《Labi影讯网服务条款》</a>
+								</dd>
+								<dt class="regin_btn">
+									<a href="">注 册</a>
+								</dt>
+							</dl>
+						</div>
+						<div class="regin_right">
+							<h2>会员登录</h2>
+							<dl>
+								<dd class="login_num">
+									<input type="text" placeholder="输入电子邮箱/手机号" />
+								</dd>
+								<dd class="login_passtrue">
+									<input type="password" placeholder="确认密码" />
+								</dd>
+								<dd class="login_pro">
+									<span class="regin_proon"></span>
+									<a href="javascript:void(0)" id="isautologin">下次自动登录</a>
+									<a href="javascript:void(0)" id="forgetpass">忘记密码</a>
+								</dd>
+								<dt class="login_btn">
+									<a href="javascript:void(0)">登 陆</a>
+								</dt>
+							</dl>
+							<dl class="right_otherlogin">
+							<dt>使用第三方登陆</dt>
+							<dd>
+								<a href="javascript:void(0)" class="icon-sina"></a>
+								<a href="javascript:void(0)" class="icon-qq"></a>
+							</dd>
+						    </dl>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="mask"></div>
+		<div id="myCarousel">
+			
+			<ol class="circle">
+				<li class="small_circle"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+			<div class="head_pic">
+				<div class="headpic_concent appear" style="opacity: 1;">
+					<img src="img/header_pic1.jpg" alt="陆垚知马莉"/>
+				</div>
+				<div class="headpic_concent" >
+					<img src="img/header_pic2.jpg" alt="我的战争"/>
+				</div>
+				<div class="headpic_concent" >
+					<img src="img/header_pic3.jpg" alt="反贪风暴"/>
+				</div>
+				<div class="headpic_concent">
+					<img src="img/header_pic4.jpg" alt="弯刀杀戮"/>
+				</div>
+				<div class="headpic_concent">
+					<img src="img/header_pic5.jpg" alt="九条命"/>
+				</div>
+				<div class="headpic_concent">
+					<img src="img/header_pic6.jpg" alt="不速之客"/>
+				</div>
+				<div class="headpic_concent">
+					<img src="img/header_pic7.jpg" alt="七月与安生"/>
+				</div>
+				<div class="headpic_concent">
+					<img src="img/header_pic8.jpg" alt="火海凌云"/>
+				</div>
+				<div class="headpic_concent">
+					<img src="img/header_pic9.jpg" alt="驴得水"/>
+				</div>
+				<div class="headpic_concent">
+					<img src="img/header_pic10.jpg" alt="海底总动员2"/>
+				</div>
+			</div>
+			<!--<a href="#myCarousel" data-slide="prev" class="carousel-control left " id="myCarousel_left" >
+				<i>&lsaquo;</i>
+			</a>
+			<a href="#myCarousel" data-slide="next" class="carousel-control right" id="myCarousel_right" >
+			    <i>&rsaquo;</i>	
+		    </a>-->
+		    
+		    <div class="myCarouselList_bg"></div>
+		    <div id="myCarousel_list">
+		    	<ul>
+		    		<li class="myCarouselList_appear">陆垚知马莉:免费首播啦</li>
+		    		<li>我的战争:重返热血战场</li>
+		    		<li>反贪风暴：古天乐和张智霖</li>
+		    		<li>弯刀杀戮：以胸部做武器</li>
+		    		<li>九条命：凯文&bull;史派西</li>
+		    		<li>不速之客:重口味悬疑</li>
+		    		<li>七月与安生：双花生叛逆青春</li>
+		    		<li>火海凌云：战斗名族灾难巨制</li>
+		    		<li>驴得水：开心麻花</li>
+		    		<li>海底总动员2：多莉去哪儿</li>
+		    	</ul>
+		    </div>
+		</div>
+		
+		<div class="tab1">
+			<div class="container">
+				<h2 class="tab-h2">「今日热点」</h2>
+				<div class="row">
+					<div class="col-md-12">	
+						<div class="today_hot">
+							<i></i>
+				        <dl>
+				        	<dd>时光对话</dd>
+				        	<dd>产业聚焦</dd>
+				        	<dd>电视情报</dd>
+				        	<dd>全球识趣</dd>
+				        </dl>
+						</div>
+					</div>
+				</div>
+			
+			   
+			    <div class="row">
+			    	<div class="col-md-12" id="today_hot">
+			    		<dl class="today_body">
+			    			<dd>
+			    			    <a href="javascript:void(0)" class="imgbox"><img src="img/today_hot/today1.jpg"/><em class="video"></em></a>
+			    		        <h4><a href="javascript:void(0)">《蜡笔小新》新剧场版首发中文预告</a></h4>
+			    		        <p>"污力"小新玩转梦境 内地11.4公映</p>
+			    		       
+			    			</dd>
+			    			<dd>
+			    			    <a href="javascript:void(0)" class="imgbox"><img src="img/today_hot/today2.jpg"/></a>
+			    		        <h4><a href="javascript:void(0)">十月电影有点冷？</a></h4>
+			    		        <p>社交媒体数据告诉你发生了什么</p>
+			    			</dd>
+			    			<dd>
+			    			    <a href="javascript:void(0)"class="imgbox"><img src="img/today_hot/today3.jpg"/><em class="video"></em></a>
+			    		        <h4><a href="javascript:void(0)">《西游伏妖篇》曝周星驰徐克搞笑花絮</a></h4>
+			    		        <p>姚晨配音现场挺孕肚起舞 被星爷骂“神经病”</p>
+			    			</dd>
+			    			<dd>
+			    			    <a href="javascript:void(0)" class="imgbox"><img src="img/today_hot/today4.jpg"/></a>
+			    		        <h4><a href="javascript:void(0)">《乐高大电影：蝙蝠侠》新剧照曝光</a></h4>
+			    		        <p>蝙蝠侠造更多战车 造型奇葩“无法描述“</p>
+			    			</dd>
+			    			<dd>
+			    			    <a href="javascript:void(0)" class="imgbox"><img src="img/today_hot/today5.jpg"/></a>
+			    		        <h4><a href="javascript:void(0)">如何开发基于制片范畴下"好剧本"</a></h4>
+			    		        <p>《摆渡人》剧本"70万字118易其稿"行业奇...</p>
+			    			</dd>
+			    			<dd>
+			    			    <a href="javascript:void(0)"class="imgbox"><img src="img/today_hot/today6.jpg"/><em class="pic"></em></a>
+			    		        <h4><a href="">侣皓吉吉《将军在上》斥资3亿西域...</a></h4>
+			    		        <p>马思纯搭档盛一伦 和田惠美加盟 2017暑期...</p>
+			    			</dd>
+			    			<dd>
+			    			    <a href="javascript:void(0)" class="imgbox"><img src="img/today_hot/today7.jpg"/></a>
+			    		        <h4><a href="javascript:void(0)">小S为《我不是潘金莲》献唱</a></h4>
+			    		        <p>化身“热辣村妇”李雪莲 与大鹏出演“大小...</p>
+			    			</dd>
+			    			<dd>
+			    			    <a href="javascript:void(0)" class="imgbox"><img src="img/today_hot/today8.jpg"/></a>
+			    		        <h4><a href="javascript:void(0)">皮特将首次来华宣传新片"间谍同盟"</a></h4>
+			    		        <p>首款中文海报发布 皮特&玛里昂动情一吻</p>
+			    			</dd>
+			    		</dl>
+			    	</div>
+			    </div>
+			</div>
+		    <div class="row">
+	        	<div class="col-md-12">
+	        		<div class="loading_more1">
+	        	         查看更多
+	                </div>
+	        	</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="tab2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10" id="option1">
+						<ul class="nav nav-tabs nav_border1">
+							<li  class="active" id="left" ><a href="#hot">火热上映中</a></li>
+							<li id="right"><a href="#next">即将上映</a></li>
+						</ul>
+							
+							<div class="tab-content" >
+								<div id="myCarousel1" class="carousel slide">
+									<div id="hot" class="tab-pane active carousel-inner">
+									     <div id="hot_one" class="item active">
+											<div class="one">
+											<a href="javascript:void(0)" class="img"><img src="img/hot1.jpg" class="scale"/></a>
+											<p class="film_text"><span class="film_name">从你的全世界路过</span><span class="film_score">7.0</span></p>
+											<p class="film_information"><span class="film_date">10月21日</span><a class="film_message">查影讯</a></p>
+											<p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="one">
+											<a href="javascript:void(0)" class="img"><img src="img/hot2.jpg" class="scale"/></a>
+											<p class="film_text"><span class="film_name">龙珠Z：复活的弗利萨</span><span class="film_score">6.9</span></p>
+											<p class="film_information"><span class="film_date">10月21日</span><a class="film_message">查影讯</a></p>
+											<p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="one">
+											<a href="javascript:void(0)" class="img"><img src="img/hot3.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">湄公河行动</span><span class="film_score">7.5</span></p>
+											    <p class="film_information"><span class="film_date">10月13日</span><a class="film_message">查影讯</a></p>
+										     	<p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="one">
+											<a href="javascript:void(0)" class="img"><img src="img/hot4.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">惊天破</span><span class="film_score">6.5</span></p>
+										    	<p class="film_information"><span class="film_date">10月20日</span><a class="film_message">查影讯</a></p>
+										    	<p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+										</div>
+										<div id="hot_two" class="item">
+											<div class="two ">
+											<a href="javascript:void(0)" class="img"><img src="img/hot5.jpg" class="scale"/></a>
+											     <p class="film_text"><span class="film_name">侠探杰克：永不回头</span><span class="film_score">6.6</span></p>
+											     <p class="film_information"><span class="film_date">10月21日</span><a class="film_message">查影讯</a></p>
+											     <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="two">
+											<a href="javascript:void(0)" class="img"><img src="img/hot6.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">爵迹</span><span class="film_score">5.9</span></p>
+											    <p class="film_information"><span class="film_date">10月16日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="two">
+											<a href="javascript:void(0)" class="img"><img src="img/hot7.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">七月与安生</span><span class="film_score">6.5</span></p>
+											    <p class="film_information"><span class="film_date">10月19日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="two">
+											<a href="javascript:void(0)" class="img"><img src="img/hot8.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">王牌逗王牌</span><span class="film_score">5.9</span></p>
+											    <p class="film_information"><span class="film_date">10月10日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+										</div> 
+								    </div>
+									<a href="#myCarousel1" data-slide="prev" class="carousel-control left" id="myCarousel1_left">
+								     <i>&lsaquo;</i>
+									</a>
+									<a href="#myCarousel1" data-slide="next" class="carousel-control right" id="myCarousel1_right">
+									 <i>&rsaquo;</i>
+									</a>
+								</div>
+									
+									
+								<div id="myCarousel2" class="carousel slide">
+									<div id="next" class="tab-pane carousel-inner">
+										<div id="next_one" class="item active">
+											<div class="one">
+											<a href="" class="img"><img src="img/pan.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">我不是潘金莲</span><span class="film_score">8.5</span></p>
+												<p class="film_information"><span class="film_date">11月11日</span><a class="film_message">查影讯</a></p>
+												<p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="one">
+											<a href="" class="img"><img src="img/nao.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">大闹天竺</span><span class="film_score">8.5</span></p>
+											    <p class="film_information"><span class="film_date">12月10日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="one">
+											<a href="" class="img"><img src="img/qi.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">奇异博士</span><span class="film_score">7.0</span></p>
+											    <p class="film_information"><span class="film_date">11月3日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="one">
+											<a href="" class="img"><img src="img/ji.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">机械师</span><span class="film_score">8.9</span></p>
+											    <p class="film_information"><span class="film_date">11月10日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+										</div>
+										<div id="next_two" class="item">
+											<div class="two">
+											<a href="" class="img"><img src="img/next1.jpg" class="scale"/></a>
+											    <p class="film_text"><span class="film_name">被劫持的爱情</span><span class="film_score">5.9</span></p>
+											    <p class="film_information"><span class="film_date">11月13日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="two">
+											<a href="" class="img"><img src="img/next2.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">非常父子档</span><span class="film_score">6.3</span></p>
+											    <p class="film_information"><span class="film_date">12月03日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="two">
+											<a href="" class="img"><img src="img/next3.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">笑林足球</span><span class="film_score">7.0</span></p>
+											    <p class="film_information"><span class="film_date">11月04日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+											<div class="two">
+											<a href="" class="img"><img src="img/next4.jpg" class="scale"/></a>
+												<p class="film_text"><span class="film_name">海洋奇缘</span><span class="film_score">7.5</span></p>
+											    <p class="film_information"><span class="film_date">11月23日</span><a class="film_message">查影讯</a></p>
+											    <p class="myscore"><a href="" class="my_score">我要打分</a></p>
+											</div>
+										</div> 
+									</div>
+								    
+							        <a href="#myCarousel2" data-slide="prev" class="carousel-control left " id="myCarousel2_left">
+								    <i>&lsaquo;</i>
+							     	</a>
+								    <a href="#myCarousel2" data-slide="next" class="carousel-control right" id="myCarousel2_right">
+								    <i>&rsaquo;</i> 
+								    </a>
+								</div>
+                           </div>
+				        </div>
+					<div class="col-md-2"id="option2" >
+						<div class="option2_title">
+							<h2>票房排行榜</h2>
+						</div>
+						<ul class="nav nav-tabs nav_border2">
+							<li id="location" class="active"><a href="#local">内地</a></li>
+							<li id="america"><a href="#amer">北美</a></li>
+							<li id="korea"><a href="#kor">韩国</a></li>
+						</ul>
+					    <div class="tab-content">
+					    	<div class="tab-pane active" id="local" >
+					    		<p><strong class="rank">1</strong><a href="javascript:void(0)">湄公河行动</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong class="rank">2</strong><a href="javascript:void(0)">从你的全世界路过</a></p>
+					    		<p><strong class="rank">3</strong><a href="javascript:void(0)">圆梦巨人</a><span class="new"><img src="img/new.png"/></span></p>
+					    		<p><strong>4</strong><a href="javascript:void(0)">王牌逗王牌</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong>5</strong><a href="javascript:void(0)">勇士</a></p>
+					    		<p><strong>6</strong><a href="javascript:void(0)">爵迹</a><span class="new"><img src="img/new.png"/></span></p>
+					    		<p><strong>7</strong><a href="javascript:void(0)">暗杀游戏</a><span class="glyphicon glyphicon-arrow-down"></span></p>
+					    		<p><strong>8</strong><a href="javascript:void(0)">宾虚</a></p>
+					    		<p><strong>9</strong><a href="javascript:void(0)">鲁滨逊漂流记</a><span class="glyphicon glyphicon-arrow-down"></span></p>
+					    		<p><strong>10</strong><a href="javascript:void(0)">黑处有什么</a></p>
+					    	</div>
+					    	<div class="tab-pane" id="amer">
+					    		<p><strong class="rank">1</strong><a href="javascript:void(0)">会计刺客</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong class="rank">2</strong><a href="javascript:void(0)">火车上的女孩</a><span class="new"><img src="img/new.png"/></span></p>
+					    		<p><strong class="rank">3</strong><a href="javascript:void(0)">凯文-哈特秀</a></p>
+					    		<p><strong>4</strong><a href="javascript:void(0)">佩小姐的奇幻城堡</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong>5</strong><a href="javascript:void(0)">深海浩劫</a><span class="new"><img src="img/new.png"/></span></p>
+					    		<p><strong>6</strong><a href="javascript:void(0)">逗鸟外传</a></p>
+					    		<p><strong>7</strong><a href="javascript:void(0)">豪勇七蛟龙</a></p>
+					    		<p><strong>8</strong><a href="javascript:void(0)">萨利机长</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong>9</strong><a href="javascript:void(0)">地狱中学生活</a></p>
+					    		<p><strong>10</strong><a href="javascript:void(0)">一个国家的诞生</a><span class="glyphicon glyphicon-arrow-down"></span></p>
+					    	</div>
+					    	<div class="tab-pane" id="kor">
+					    		<p><strong class="rank">1</strong><a href="">LUCK KEY</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong class="rank">2</strong><a href="">佩小姐的奇幻城堡</a></p>
+					    		<p><strong class="rank">3</strong><a href="">屏住呼吸</a><span class="new"><img src="img/new.png"/></span></p>
+					    		<p><strong>4</strong><a href="javascript:void(0)">BJ单身日记3</a></p>
+					    		<p><strong>5</strong><a href="javascript:void(0)">巴黎危机</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong>6</strong><a href="javascript:void(0)">会计刺客</a><span class="glyphicon glyphicon-arrow-down"></span></p>
+					    		<p><strong>7</strong><a href="">自白</a></p>
+					    		<p><strong>8</strong><a href="">阿修罗</a><span class="new"><img src="img/new.png"/></span></p>
+					    		<p><strong>9</strong><a href="">萨利机长</a><span class="glyphicon glyphicon-arrow-up"></span></p>
+					    		<p><strong>10</strong><a href="">PriPar美妙天堂</a></p>
+					    	</div>
+					    </div>
+					
+					</div>
+				</div>
+			    <div class="row">
+			        	<div class="col-md-12">
+			        		<div class="loading_more">
+			        	         查看更多
+			                </div>
+			        	</div>
+			    </div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="tab3">
+			<div class="container">
+				<h2 class="mall_h2">「正版商城」</h2>
+				<div class="row">
+					<div class="col-md-12">	
+						<div class="mall">
+							<i></i>
+				        <dl>
+				        	<dd>新品登陆</dd>
+				        	<dd>热销爆款</dd>
+				        	<dd>折扣促销</dd>
+				        	<dd>超前预售</dd>
+				        </dl>
+						</div>
+					</div>
+				</div>
+			    <div class="row">
+			     	<div class="col-md-12">
+			     		 <dl>
+			     		 	<dt>
+			     		 		<div class="mall_list">
+			     		 			<div class="placeholder"></div>
+			     		 			<ul>
+			     		 				<li>
+			     		 					<h3><img src="img/today_hot/wanju.jpg"/>玩具模型</h3>
+			     		 					<p><a href="javascript:void(0)">模型公仔</a><a href="javascript:void(0)">仿真收藏</a><a href="">变形金刚</a><a href="">更多></a></p>
+			     		 				</li>
+			     		 			    <li>
+			     		 			    	<h3><img src="img/today_hot/shuma.jpg"/>数码配件</h3>
+			     		 			    	<p><a href="javascript:void(0)">手机配件</a><a href="javascript:void(0)">充电装备</a>
+			     		 					<a href="javascript:void(0)">时尚U盘</a><a href="javascript:void(0)">更多></a></p>
+			     		 			    </li>
+			     		 			    <li>
+			     		 			    	<h3><img src="img/today_hot/yifu.jpg"/>服装服饰</h3>
+			     		 			    	<p><a href="javascript:void(0)">潮牌男装</a><a href="javascript:void(0)">时尚女装</a></br>
+			     		 					<a href="javascript:void(0)">服饰配件</a><a href="javascript:void(0)">更多></a></p>
+			     		 			    </li>
+			     		 			    <li>
+			     		 			    	<h3><img src="img/today_hot/jiaju.jpg"/>居家日用</h3>
+			     		 			    	<p><a href="javascript:void(0)">抱枕靠垫</a><a href="javascript:void(0)">创意文具</a></br>
+			     		 					<a href="javascript:void(0)">水壶水杯</a><a href="javascript:void(0)">更多></a></p>
+			     		 			    </li>
+			     		 			</ul>
+			     		 		    <div class="mall_listright">
+			     		 		    	<div class="mall_lists">
+			     		 		    		<h4>模型公仔<span><a href="">更多>></a></span></h4>
+			     		 		    		<p><a href="">变形金刚</a><a href="javascript:void(0)">钢铁侠</a><a href="javascript:void(0)">蝙蝠侠</a><a href="">超人</a><a href="javascript:void(0)">杜隆坦4.25英寸可动人偶</a></p>
+			     		 		    		<p><a href="javascript:void(0)">哆啦a梦</a><a href="javascript:void(0)">蜘蛛侠</a><a href="javascript:void(0)">HT MK44+MK45套装<i class="jian"><img src="img/jian.png"/></i></a><a href="javascript:void(0)">海底总动员尼莫玩偶</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">美队&钢铁侠COSBABY套装</a><a href="javascript:void(0)">野兽国 钢铁侠3 豪华套装</a></p>
+			     		 		    	    <h4>仿真收藏<span><a href="">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">HT美队cosbaby单装2</a><a href="javascript:void(0)">现货复联2COSBABY迷你人偶黑寡妇</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">魔兽洛萨3.75英寸可动人偶<i class="small_hot"><img src="img/small_hot1.gif"/></i></a><a href="javascript:void(0)">愤怒的小鸟毛绒玩偶 红鸟</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">HT蝙超cosbaby单装噩梦蝙蝠侠</a><a href="javascript:void(0)">Q版超合金蝙蝠侠公仔</a></p>
+			     		 		    	    <h4>变形金刚<span><a href="">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">变形金刚塞伯部队 擎天柱</a><a href="javascript:void(0)">变形金刚塞伯部队 大黄蜂</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">变形金刚加强级系列 激射</a><a href="javascript:void(0)">变形金刚加强级系列 咆哮<i class="small_new"><img src="img/small_new.png"/></i></a></p>
+			     		 		    	    <p><a href="javascript:void(0)">变形金刚加强级系列 漂移</a><a href="javascript:void(0)">变形金刚加强级系列 禁闭</a></p>
+			     		 		    	</div>
+			     		 		    	<div class="mall_lists">
+			     		 		    		<h4>手机配件<span><a href="javascript:void(0)">更多>></a></span></h4>
+			     		 		    		<p><a href="javascript:void(0)">PGA轻松熊翻盖皮套 熊妹<i class="small_new"><img src="img/small_new.png"/></i></a><a href="javascript:void(0)">海报版i7/i7P手机壳 茅十八与荔枝</a></p>
+			     		 		    		<p><a href="javascript:void(0)">九条命陶瓷摆件手机扩音器</a><a href="javascript:void(0)">海报版i7/i7P手机壳 猪头与燕子</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">哆啦A梦i7/7P支架保护壳 经典款</a><a href="javascript:void(0)">哆啦A梦i7/7P挂饰手机壳</a></p>
+			     		 		    	    <h4>充电装备<span><a href="javascript:void(0)">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">蝙蝠侠立体充电宝</a><a href="javascript:void(0)">大眼萌小黄人充电宝</a><a href="javascript:void(0)">钢铁侠炫酷充电宝</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">Q萌公仔充电宝 蜘蛛侠</a><a href="javascript:void(0)">功夫熊猫天书系列移动电源 阿宝</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">超能陆战队充电宝套装<i class="small_hot1"><img src="img/small_hot1.gif"/></i></a><a href="javascript:void(0)">魔兽酷炫充电宝 部落</a><a href="javascript:void(0)">大白移动电源</a></p>
+			     		 		    	    <h4>时尚U盘<span><a href="javascript:void(0)">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">漫威复联2鹰眼之弓造型U盘</a><a href="javascript:void(0)">星球大战系列16GU盘 达斯维达</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">infoThink功夫熊猫卡通U盘 美美<i class="jian1"><img src="img/jian.png"/></i></a><a href="javascript:void(0)">星球大战系列U盘 暴风兵</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">infoThink功夫熊猫卡通U盘 阿宝</a><a href="javascript:void(0)">钢铁侠3系列U盘 左手盔甲</a></p>
+			     		 		    	</div>
+			     		 		    	<div class="mall_lists">
+			     		 		    		<h4>潮牌男装<span><a href="javascript:void(0)">更多>></a></span></h4>
+			     		 		    		<p><a href="javascript:void(0)">魔兽热血LOGOT恤 部落</a><a href="javascript:void(0)">魔兽热血LOGOT恤 联盟</a></p>
+			     		 		    		<p><a href="javascript:void(0)">银河护卫队 火箭浣熊卫衣</a><a href="javascript:void(0)">魔兽手绘风战斗T恤 部落</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">漫威英雄时尚黑金T恤 美国队长</a><a href="javascript:void(0)">魔兽手绘风战斗T恤 联盟</a></p>
+			     		 		    	    <h4>时尚女装<span><a href="javascript:void(0)">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">贴布绣百搭长袖套头卫衣</a><a href="javascript:void(0)">青春活力罗纹拼接长袖卫衣</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">拉贝缇趣味图案套头卫衣</a><a href="javascript:void(0)">复仇者联盟雷神印花短袖</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">拉贝缇圆点印花毛织套装</a><a href="javascript:void(0)">复仇者联盟绿巨人印花短袖</a></p>
+			     		 		    	    <h4>服饰配件<span><a href="javascript:void(0)">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">小黄人儿童冬季三件套</a><a href="javascript:void(0)">蝙蝠侠大战超人徽章 B款</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">蝙蝠侠黑暗骑士运动套装</a><a href="javascript:void(0)">漫威英雄运动套装 美国队长</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">蝙蝠侠大战超人徽章 C款</a><a href="javascript:void(0)">HelloKitty儿童冬季三件套</a></p>
+			     		 		    	</div>
+			     		 		        <div class="mall_lists">
+			     		 		    		<h4>抱枕靠垫<span><a href="javascript:void(0)">更多>></a></span></h4>
+			     		 		    		<p><a href="javascript:void(0)">头脑特工队方形靠垫 Sadness</a><a href="">疯狂动物城可爱抱枕 兔子警官</a></p>
+			     		 		    		<p><a href="javascript:void(0)">魔兽旅行颈枕 联盟</a><a href="">魔兽旅行颈枕 部落</a><a href="javascript:void(0)">魔兽旅行颈枕 联盟</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">蝙蝠侠黑暗骑士抱枕</a><a href="">超人钢铁之躯抱枕</a><a href="javascript:void(0)">魔兽旅行颈枕 部落</a></p>
+			     		 		    	    <h4>创意文具<span><a href="">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">魔兽主题系列珍藏笔记本 部落</a><a href="javascript:void(0)">魔兽主题系列珍藏笔记本 联盟</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">迪士尼米奇多功能包</a><a href="javascript:void(0)">迪士尼米奇笔袋</a><a href="javascript:void(0)">星战三合一多功能包</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">迪士尼冰雪奇缘包 缤纷公主</a><a href="javascript:void(0)">冰雪奇缘系列A5笔记本 艾莎公主</a></p>
+			     		 		    	    <h4>水壶水杯<span><a href="">更多>></a></span></h4>
+			     		 		    	    <p><a href="javascript:void(0)">大眼萌小黄人情侣对杯</a><a href="javascript:void(0)">漫威复古陶瓷杯</a><a href="javascript:void(0)">蝙蝠侠旅行保温杯</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">魔兽联盟高级陶瓷马克杯 白色</a><a href="javascript:void(0)">蝙蝠侠黑色轻便保温杯</a></p>
+			     		 		    	    <p><a href="javascript:void(0)">Hello Kitty可爱陶瓷杯 B款</a><a href="javascript:void(0)">HELLOKITTY黑金哑光波比杯</a></p>
+			     		 		    	</div>
+			     		 		    </div>
+			     		 		
+			     		 		</div>
+			     		 	</dt>
+			     		 	<dd>
+			     		 		<div class="mall_pic1">
+			     		 			<a href="javascript:void(0)" title="双十一第一波预热"><img src="img/mall1.jpg"/></a>
+			     		 		</div>
+			     		 	</dd>
+			     		    <dd>
+			     		    	<div class="mall_pic2">
+			     		 			<a href="javascript:void(0)" title="双十一第一波预热"><img src="img/mall2.jpg"/><i class="tag">潮牌精选</i></a>
+			     		 		</div>
+			     		    </dd>
+			     		     <dd>
+			     		    	<div class="mall_pic3">
+			     		 			<a href="javascript:void(0)" title="双十一第一波预热"><img src="img/mall3.jpg"/><i class="tag">优秀推荐</i></a>
+			     		 		</div>
+			     		    </dd>
+			     		 </dl>
+			     	</div>
+		         </div>
+			     <div class="row">
+		        	<div class="col-md-12">
+		        		<div class="loading_more">
+		        	         查看更多
+		                </div>
+		        	</div>
+			    </div>
+			</div>
+		</div>
+		
+		<div id="tab4">
+			<div class="labi_select">
+				<div class="labi_selectheader">
+					<h2 class="select_h2">「蜡笔精选」</h2>
+				    <div class="row">
+					<div class="col-md-12">	
+						<div class="select">
+							<i></i>
+				        <dl>
+				        	<dd>蜡笔电影TOP100</dd>
+				        	<dd>观影指南</dd>
+				        	<dd>获奖佳片</dd>
+				        	<dd>特约影评</dd>
+				        	<dd>卡片大富翁</dd>
+				        	<dd>电影猜猜猜</dd>
+				        </dl>
+						</div>
+					</div>
+				    </div>
+				</div>
+			    <div class="labi_selectbody">
+			    	<div class="labi_selectcontent">
+			    		
+			    		<div class="labi_selecttitle">
+			    			<a href="">更多></a>
+			    			<h3>新片预告</h3>
+			    		</div>
+			    		
+			    	    <div class="labi_selectpic">
+			    	    	<dl>
+			    	    		<dt class="labi_selectpicleft">
+			    	    			<a href="javascript:void(0)"><img src="img/labi_selectpicleft.jpg"/><i class="labi_video1"></i></a>
+			    	    			<h3><a href="javascript:void(0)">《神奇动物在哪里》逗趣片段 萌兽洗劫珠宝店</a></h3>
+			    	    			<p>2016.11.25中国 上映</p>
+			    	    		</dt>
+			    	            <dd class="labi_selectmid1">
+			    	            	<a href="javascript:void(0)"><img src="img/labi_selectpicmid1.jpg"/>
+			    	            	<span><i class="labi_video2"></i><strong>《刺客信条》台版预告</strong><b>2016.12.21美国 上映</b></span>
+			    	            	</a>
+			    	            </dd>
+			    	            <dd class="labi_selectmid2">
+			    	            	<a href="javascript:void(0)"><img src="img/labi_selectpicmid2.jpg"/>
+			    	            	<span><i class="labi_video2"></i><strong>《潘多拉》预告</strong><b>2016.12韩国 上映</b></span>
+			    	            	</a>
+			    	            </dd>
+			    	            <dd class="labi_selectmid3">
+			    	            	<a href="javascript:void(0)"><img src="img/labi_selectpicmid3.jpg"/>
+			    	            	<span><i class="labi_video2"></i><strong>《比利·林恩》新预告</strong><b>2016.11.11中国 上映</b></span>
+			    	            	</a>
+			    	            </dd>
+			    	    	</dl>
+			    	    </div>
+			    	    <div class="labi_selectright">
+			    	    	<div class="labi_selectrtitle">
+			    	        	<h4>观影指南</h4>
+			    	        	<a href="javascript:void(0)"><img src="img/labi_selectpirt.jpg"/></a>
+			    	        	<dl class="labi_seletrank">
+			    	        		<dt>
+			    	        			<span>影视名</span>
+			    	        			<span>蜡笔热度排名</span>
+			    	        		</dt>
+			    	        		<dd class="rankodd">
+			    	        			<span class="rankname"><a href="">奇异博士</a></span>
+			    	        			<span class="rankscore">01<i class="rankscore_tagodd"></i></span>
+			    	        			<span class="rankctrlodd"><a href="javascript:void(0)">预售</a></span>
+			    	        		</dd>
+			    	        		<dd class="rankeven">
+			    	        			<span class="rankname"><a href="">比利·林恩的中场战事</a></span>
+			    	        			<span class="rankscore">02<i class="rankscore_tagev"></i></span>
+			    	        			<span class="rankctrlev"><a href="javascript:void(0)">想看</a></span>
+			    	        		</dd>
+			    	        	    <dd class="rankodd">
+			    	        			<span class="rankname"><a href="">钢铁骑士</a></span>
+			    	        			<span class="rankscore">03<i class="rankscore_tagodd2"></i></span>
+			    	        			<span class="rankctrlodd"><a href="javascript:void(0)">预售</a></span>
+			    	        		</dd>
+			    	        		<dd class="rankeven">
+			    	        			<span class="rankname"><a href="">神奇的动物在哪里</a></span>
+			    	        			<span class="rankscore">04<i class="rankscore_tagev2"></i></span>
+			    	        			<span class="rankctrlev"><a href="javascript:void(0)">想看</a></span>
+			    	        		</dd>
+			    	        		<dt class="labi_seletmore">
+			    	        			<a href="javascript:void(0)">更多></a>
+			    	        		</dt>
+			    	        	</dl>
+			    	       </div>
+			    	    </div>
+			        </div>
+                </div>
+			</div>
+		</div>
+		
+		
+<div id='tab5'>
+			<dl class="film_comments">
+				<dt class="comments_picbox">
+					<div id="myCarousel3"class="carousel slide">
+						<span class="hot-commentes">热门影评</span>
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel3" data-slide-to="1"></li>
+							<li data-target="#myCarousel3" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner comments-contentborder">
+							<div class="item active">
+								<a href="javascript:void(0)"><img src="img/commets_pic1.jpg"/></a>
+								<div class="comments-content">
+									<a href="javascript:void(0)"><img src="img/comments_small1.jpg"/></a>
+									<p><span>_且听_风吟</span>　<span>评</span>　<span>《驴得水》</span>　<i class="filmcomments_score">7.8</i></p>
+								    <h3>这个“得水”真有点水</h3>
+								    <p class="describe"><i></i><a href="javascript:void(0)">从最愚昧最没水平的铜匠到校长、特派员，所有人都自带人性污点。他们从圆谎到配合演戏，最后掉入了一个更大的谎言中。</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<a href="javascript:void(0)"><img src="img/commets_pic2.jpg"/></a>
+								<div class="comments-content">
+									<a href="javascript:void(0)"><img src="img/comments_small2.jpg"/></a>
+									<p><span>kissblood</span>　<span>评</span>　<span>《黑镜 第》...</span>　<i class="filmcomments_score">9.0</i></p>
+								    <h3>深挖《黑镜》里冷酷无边的科技</h3>
+								    <p class="describe"><i></i><a href="javascript:void(0)">《黑镜》通过每集不一样的故事，表达一个终极问题：究竟是我们在控制技术？还是技术反噬我们？而主创更为高明的将话语权交给观众。</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<a href="javascript:void(0)"><img src="img/commets_pic3.jpg"/></a>
+								<div class="comments-content">
+									<a href="javascript:void(0)"><img src="img/comments_small3.jpg"/></a>
+									<p><span>冷子墨</span>　<span>评</span>　<span>《但丁密码》</span>　<i class="filmcomments_score">8.0</i></p>
+								    <h3>兰登博士的欧洲解密之旅</h3>
+								    <p class="describe"><i></i><a href="javascript:void(0)">灾难面前每个人都有各自选择，有人无视他人性命，有人渴望谋利，有人舍己为人，有人执迷不悟，自然也有人幡然醒悟改邪归正。</a></p>
+								</div>
+							</div>
+						</div>
+					    <a href="#myCarousel3" data-slide="prev" class="carousel-control left " id="myCarousel3_left">
+					    <i>&lsaquo;</i>
+				     	</a>
+					    <a href="#myCarousel3" data-slide="next" class="carousel-control right" id="myCarousel3_right">
+					    <i>&rsaquo;</i> 
+					    </a>
+					</div>
+				</dt>
+				<dd class="comments_midbox">
+					<span class="commentes_more">更多></span>
+					<ul>
+						<li class="comments_mid">
+							<a href=""><img src="img/commets_pic4.jpg"/></a>
+							<p class="describe_mid"><i></i><a href="">只看了第一个镜头，我就知道是我想要的电影。6个看似八竿子打不着的人，形成了3组微妙的关系。</a></p>
+						    <p class="describe_down"><span>sundee</span>　<span>评</span>　<span>《心房客》</span>　<i class="filmcomments_score">7.5</i></p>
+						</li>
+						<li class="comments_mid1">
+							<a href=""><img src="img/commets_pic5.jpg"/></a>
+							<p class="describe_mid"><i></i><a href="">用诚实、勇敢、善良回答问题，无论是难民、罪犯、同性恋、妓女，心中都存在着“爱”，渴望和平。</a></p>
+						    <p class="describe_down"><span>zheast</span>　<span>评</span>　<span>《人类》</span>　<i class="filmcomments_score">8.0</i></p>
+						</li>
+						<li class="comments_mid2">
+							<a href=""><img src="img/commets_pic6.jpg"/></a>
+							<p class="describe_mid"><i></i><a href="">好与坏无法判断，身为棋子不随波逐流只有力争上游。而所谓的上游，无非是想获得更多的特权。</a></p>
+						    <p class="describe_down"><span>叛卡门</span>　<span>评</span>　<span>《棋王》</span>　<i class="filmcomments_score">7.9</i></p>
+						</li>
+					</ul>
+				</dd>
+			    <dd class="comments_right">
+			    	<span>社区活动</span>
+			    	<div class="comments_rightbox">
+				    	<a href="" class="comments_rightpic"><img src="img/commets_pic7.jpg"/></a>
+				        <h3>开脑洞！如果头发有超能力……</h3>
+				        <p class="comments_righttime"><i></i>10月24日 08:00</p>
+				        <p class="comments_rightdescribe">现在！只要你告诉我们，头发可以有什么样的超能力！就有机会领取超级可爱的《魔发精灵》神秘电影周边！</p>
+				        <p class="comments_rightsign"><a href="">我参加</a></p>
+			    	</div>
+			    	
+			    </dd>
+			</dl>
+			 <div class="row">
+	        	<div class="col-md-12">
+	        		<div class="loading_more"> 查看更多</div>
+	        	</div>
+		    </div>
+		</div>
+		
+		
+		
+		<div id="footer">
+			<div class="container">
+				<p>蜡笔简介 | 广告服务 | 联系我们 | 产品答疑</p>
+				<p>苏ICP 备12345678. © 1996-2016 蜡笔影讯网. Powered By ZJ</p>
+			</div>
+		</div>
+		
+		
+		
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap3.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/film.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

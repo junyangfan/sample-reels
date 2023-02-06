@@ -1,0 +1,742 @@
+body{
+	padding-top: 50px;
+}
+#element{
+	font-size: 22px;
+}
+.introduce{
+	font-size: 16px;
+}
+.brandname {
+    font-size: 18px;
+    color: #fff;
+    font-family: "COMIC Sans ms","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.typed-cursor{
+	display: none;
+}
+#title{
+    background:url(../img1/bg.jpg);
+    color: #eee;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+.icon-title{
+	position: relative;
+	top: 5px;
+    padding-right: 10px;
+}
+#contact{
+	margin: 20px 0 auto;
+}
+.me-spin{
+	-webkit-animation: move 2s infinite linear;
+	-moz-animation: move 2s infinite linear;
+	-o-animation: move 2s infinite linear;
+	-ms-animation: move 2s infinite linear;
+	animation: move 2s infinite linear;
+}
+@-webkit-keyframes move{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(359deg);
+	}
+}
+@-moz-keyframes move{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(359deg);
+	}
+}
+@-o-keyframes move{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(359deg);
+	}
+}
+@-ms-keyframes move{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(359deg);
+	}
+}
+@keyframes move{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(359deg);
+	}
+}
+.project{
+    background-color: #eee; 
+}
+.project .items{
+    padding: 10px 0;
+}
+.project #tab-list{
+    font-size: 12px;
+    font-weight: bold;
+}
+.project h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    margin-top: 0px;
+}
+.pages .page{
+    margin-top: 10px;
+    
+}
+.pages .page h4{
+    font-size: 10px;
+    font-weight: bold;
+}
+.pages .page .list,.pages .page .list2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    list-style-position: inside;
+}
+
+.worksbox{
+	width: 90%;
+	margin: 0 auto;
+}
+.pages .page .list2{
+	line-height: 1.5;
+	padding: 4px 0 0 0;
+	font-size: 12px;
+}
+.pages .page .list{
+	line-height: 1.5;
+	font-size: 12px;
+}
+.function{
+	padding-left: 0px;
+}
+.pages .page h4, p{
+    text-align: center;
+    font-size: 16px;
+}
+.works-pic{
+	padding: 0 50px 0 50px;
+}
+
+.pages .page p.link{
+    text-align: center;
+    font-size: 12px;
+}
+.pages a{
+    text-decoration: none;
+}
+.pages .page .text{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.film-info{
+	float: right;
+}
+.film-info > ul{
+	padding: 0;
+}
+
+.regin_line{
+	background: url(../img1/index4.png) 0 0 no-repeat;
+	width: 1px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+    display: none;
+}
+
+#carousel{
+	text-align: center;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.skills .skill-text div{
+    font-size: 4px;
+}
+.skills .skill-text p{
+    text-align: left;
+    font-size: 6px;
+    font-weight: normal;
+    line-height: 28px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.icon-top{
+	position: relative;
+	top: 3px;
+	padding-right: 5px;
+}
+.foot{
+    text-align: center;
+    padding: 20px 20px 10px;
+    background:url(../img1/footbg.jpg);
+}
+.foot p{
+    color: #eee;
+    font-size: 15px;
+}
+.foot a{
+    text-decoration: none;
+    color: #ccc;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+.about{
+    background-color: #eee;
+    padding: 0;
+}
+.about h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top:10px ;
+}
+.about h2, h3, p{
+    text-align: center;
+}
+.about .about-content{
+    margin-bottom: 20px;
+}
+.about h3{
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about p{
+    font-size: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about #more{
+    margin-top: 20px;
+}
+.about #more .col h4{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.about #more .col{
+    font-size: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about #more .middle{
+    border-right: 2px dashed #666;
+    border-left: 2px dashed #666;
+}
+
+#side{
+	width: 60px; 
+	height: 60px; 
+	background: #24cf5e;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.side_open,.side_close{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+	width: 50px;
+	height: 50px;
+	background: url(../img1/weixin.png) no-repeat center;
+	transition: transform 0.3s;
+}
+.side_open:hover{
+	transform: rotate(-90deg);
+}
+.side_close{
+	background: url(../img1/close.png) no-repeat center;
+}
+.side_content{
+	width: 250px;
+	background:#f0f3f5;
+	position: fixed;
+	right: 10px;
+    bottom: 80px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+.side_content .content-head{
+	padding: 10px 0;
+	background:#24cf5e;
+	border-radius: 5px;
+	
+}
+.link a{
+	font-size: 14px;
+	color: dodgerblue;
+}
+.glyphicon-hand-left{
+	color: palevioletred;
+	font-size: 25px;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+.move{
+	animation: myhead 1s;
+}
+.email{
+	display: block;
+}
+@keyframes myhead{
+	from{
+		transform: translateY(-80px);
+		}
+	to{
+		transform: translateY(0px);
+		}
+}
+.side_content .myhead{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border:2px solid #FFFFFF;
+	margin: 0 auto 10px;
+	
+}
+.side_content .myheadname{
+	font-size: 16px;
+	font-weight:700;
+}
+.side_content .mywei{
+	display: block;
+	width: 120px;
+	height: 120px;
+    border-radius: 5px;
+	margin:5px auto;
+}
+.mywei +p{
+	font-size: 15px;
+}
+.go_top,
+.icon-top{
+	font-size: 15px;
+	color: #262626;
+}
+.icon_prev{
+	position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -60px;
+    font-size: 80px;
+}.icon_next{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -60px;
+    font-size: 80px;
+}
+.icon-book{
+	background: url(../img1/icon_book.png) no-repeat;
+	background-size: 25px;
+	display: inline-block;
+	line-height: 1;
+	width: 25px;
+	height: 25px;
+	padding-right: 30px;
+}
+.icon-tool{
+	background: url(../img1/icon_tool.png) no-repeat;
+	background-size:25px;
+	display: inline-block;
+	line-height: 1;
+	width: 25px;
+	height: 25px;
+	padding-right: 30px;
+}
+.icon-document{
+	background: url(../img1/icon_document.png) no-repeat;
+	background-size:25px;
+	display: inline-block;
+	line-height: 1;
+	width: 25px;
+	height: 25px;
+	padding-right: 30px;
+}
+.icon-data,.icon-heaart{
+	background: url(../img1/icon_datareport.png) no-repeat;
+	background-size:25px;
+	display: inline-block;
+	line-height: 1;
+	width: 25px;
+	height: 25px;
+	padding-right: 30px;
+}
+.icon-heaart{
+	background:url(../img1/icon_heart_alt.png) no-repeat;
+	background-size:25px;
+	display: inline-block;
+	line-height: 1;
+	width: 25px;
+	height: 25px;
+	padding-right: 30px;
+}
+.icon-contack{
+	background:url(../img1/contackme_03.png) no-repeat;
+	background-size:16px;
+	display: inline-block;
+	line-height: 1;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top:2px;
+	left: -5px;
+}
+.icon-phone{
+	background:url(../img1/phone1.png) no-repeat;
+	background-size:20px;
+	display: inline-block;
+	line-height: 1;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top:8px;
+}
+.icon-email{
+	background:url(../img1/email.png) no-repeat;
+	background-size:20px;
+	display: inline-block;
+	line-height: 1;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top:10px;
+}
+/*for small size media*/
+@media (min-width: 768px) {
+	#element{
+	font-size: 24px;
+	}
+	.introduce{
+		font-size: 18px;
+	}
+    .brandname{
+        font-size: 20px;
+    }
+    .title a{
+        font-size: 14px;
+    }
+    .regin_line{
+	display: none;
+    }
+    
+    .worksbox{
+		width: 60%;
+		margin: 0 auto;
+	}
+	.pages .page .list2{
+		line-height: 1.5;
+		padding: 4px 0 0 0;
+		font-size: 14px;
+	}
+	.pages .page .list{
+		line-height: 1.5;
+		font-size: 14px;
+	}
+	.function{
+		padding-left: 0px;
+	}
+	.pages .page h4, p{
+	    font-size: 20px;
+	}
+	.works-pic{
+		padding: 0 20px 0 20px;
+	}
+    .pages .page p.link{
+        font-size: 14px;
+    }
+    .project{
+        background-color: #eee;
+        padding: 6px 0;
+    }
+    .title h1{
+        font-size: 36px;
+    }
+    .title p{
+        font-size: 21px;
+    }
+    .project h2{
+        font-size: 26px;
+    }
+    .project #tab-list{
+	    font-size: 14px;
+	}
+    .skills h2{
+        font-size: 26px;
+    }
+    .about h2{
+        font-size: 26px;
+    }
+    .pages .page{
+        margin-top: 13px;
+    }
+    .pages .page p.link{
+        margin-top:5px;
+    }
+    .pages .page .text{
+        font-size: 16px;
+    }
+    .skills .skill-text div{
+        font-size: 6px;
+    }
+    .skills .skill-text p{
+        font-size: 10px;
+        line-height: 17px;
+        white-space: normal;
+        overflow: auto;
+        text-overflow: clip;
+    }
+    .about h3{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .about #more .col h4{
+        font-size: 14px;
+    }
+    .about #more .col{
+        font-size: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .email{
+		display: inline-block;
+    }
+}
+
+/*for medium size screen*/
+@media (min-width: 992px) {
+	#element{
+		font-size: 30px;
+	}
+	.introduce{
+		font-size:24px;
+	}
+    .brandname{
+        font-size: 22px;
+    }
+    .title a{
+        font-size: 15px;
+    }
+    .regin_line{
+		display: block;
+	}
+	.worksbox{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.worksbox > ul{
+		padding: 0;
+	}
+	.pages .page .list2{
+		line-height: 1.8;
+		padding: 4px 0 0 0;
+		font-size: 15px;
+	}
+	.pages .page .list{
+		line-height: 1.5;
+		font-size: 16px;
+	}
+	.function{
+		padding-left: 20px;
+	}
+	.pages .page h4, p{
+	    font-size: 22px;
+	}
+	.works-pic{
+		padding: 0px
+	}
+	.pages .page p.link{
+        font-size: 14px;
+    }
+    .project{
+        background-color: #eee;
+        padding: 8px 0;
+    }
+    .project #tab-list{
+	    font-size: 16px;
+	}
+    .title h1{
+        font-size: 46px;
+    }
+    .title p{
+        font-size: 22px;
+    }
+    .skills h2,.project h2,.about h2{
+    	padding: 18px 0 8px 0;
+    	font-size: 23px;
+    	font-weight: bold;
+    }
+
+    .pages .page .text{
+        font-size: 18px;
+    }
+    .skills .skill-text div{
+        font-size: 8px;
+    }
+    .skills .skill-text p{
+        font-size: 12px;
+        line-height: 29px;
+    }
+    .about h3{
+        font-size: 22px;
+    }
+    .about p{
+        font-size: 13px;
+    }
+    .about #more .col h4{
+        font-size: 16px;
+    }
+    .about #more .col{
+        font-size: 12px;
+    }
+}
+
+/*for large size screen*/
+@media (min-width: 1200px) {
+	#element{
+		font-size: 34px;
+	}
+	.introduce{
+		font-size:28px;
+	}
+    .brandname{
+        font-size: 24px;
+    }
+    .title a{
+        font-size: 16px;
+    }
+    .regin_line{
+	display: block;
+    }
+    .worksbox{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.worksbox > ul{
+		padding: 0;
+	}
+	.pages .page .list2{
+		line-height: 2;
+		padding: 4px 0 0 0;
+		font-size: 16px;
+	}
+	.pages .page .list{
+		line-height: 1.8;
+		font-size: 17px;
+	}
+	.function{
+		padding-left: 20px;
+	}
+	.works-pic{
+		padding-left:15px ;
+	}
+	.pages .page h4, p{
+	    font-size: 23px;
+	}
+	.pages .page p.link{
+        font-size: 16px;
+    }
+    .project{
+        background-color: #eee;
+        padding:0;
+    }
+    .project #tab-list{
+	    font-size: 18px;
+	}
+    .title h1{
+        font-size: 60px;
+    }
+    .title p{
+        font-size: 24px;
+    }
+    .pages .page{
+        margin-top: 20px;
+    }
+    .pages .page h4{
+        font-size: 24px;
+    }
+    .pages .page p{
+        font-size: 16px;
+    }
+    .pages .page p.link{
+        margin-top:20px;
+    }
+    .pages .page .text{
+        font-size: 20px;
+    }
+    .skills{
+        padding: 0px;
+    }
+    .skills .skill-text div{
+        font-size: 10px;
+    }
+    .skills .skill-text p{
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .skills h2,.project h2,.about h2{
+    	padding: 20px 0 10px 0;
+    	font-size: 25px;
+    	font-weight: bold;
+    }
+    .about h3{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .about #more .col h4{
+        font-size: 18px;
+    }
+    .about #more .col{
+        font-size: 14px;
+    }
+}
